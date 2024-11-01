@@ -1,4 +1,4 @@
-import Task from './models/Task.js';
+import Task from '../models/TaskModel.js';
  
 // Crear Tarea
 export const crearTarea = async (req, res) => {
