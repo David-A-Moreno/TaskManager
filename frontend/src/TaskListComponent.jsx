@@ -42,7 +42,7 @@ function TaskList({ tasks, setEditingTaskId, editingTaskId, fetchTasks }) {
                 className="mr-2"
               />
               <div>
-                <h3 className={`font-bold ${task.status === "completada" ? "line-through text-gray-500" : ""}`}>
+                <h3 className={`font-bold text-blue-700 ${task.status === "completada" ? "line-through text-gray-500" : ""}`}>
                   {task.title}
                 </h3>
                 <p>{task.description}</p>
